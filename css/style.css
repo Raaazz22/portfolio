@@ -1,0 +1,305 @@
+body{
+	background: radial-gradient(circle, rgba(175,174,238,1) 0%, rgba(142,194,234,1) 48%, rgba(135,198,233,1) 59%, rgba(134,199,233,1) 68%, rgba(75,236,226,1) 100%);
+}
+#main{
+	height:auto;
+	width:100%;
+}
+
+#menu{
+	height:60px;
+	width:70%;
+	margin-left:15%;
+	position:fixed;
+	top:5px;
+	border-radius:15px;
+	background-color:black;
+	opacity:0.9;
+}
+
+#menu button{
+	height:100%;
+	width:auto;
+	border:none;
+	margin-left:7%;
+	display:inline;
+	background:none;
+	font-size:25px;
+	color:white;
+	font-family:Monospace;
+	
+}
+#menu button a:hover{
+	color:red;
+}
+#menu button a{
+	text-decoration:none;
+	color:white;
+}
+#welcome{
+	height:600px;
+	width:100%;
+	margin-top:65px;
+}
+#welcometext{
+	height:70%;
+	width:50%;
+	float:left;
+	margin-left:2%;
+	margin-top:4%;
+	font-family:cursive;
+	padding:4%;
+	font-size:90px;
+}
+#welcomeimage{
+	height:70%;
+	width:30%;
+	margin-left:1%;
+	margin-top:6%;
+	float:left;
+	background-color:
+}
+
+#welcomeimage img{
+	height:100%;
+	width:100%;
+}
+#welcometext p{
+	font-size:20px;
+	font-family:calibri;
+}
+
+#about{
+	height:600px;
+	width:100%;
+	margin-top:5px;
+	background-color:white;
+}
+#abouttext{
+	height:70%;
+	width:50%;
+	float:right;
+	color:blue;
+	margin-right:2%;
+	margin-top:2%;
+	font-family:arial;
+	padding:4%;
+	font-size:50px;
+}
+#aboutimage{
+	height:65%;
+	width:30%;
+	margin-left:6%;
+	margin-top:7%;
+	float:left;
+	border-radius:50%;
+}
+
+#aboutimage img{
+	height:100%;
+	width:95%;
+	border-radius:50%;
+	border:10px solid black;
+}
+#abouttext p{
+	font-size:25px;
+	font-family:cursive;
+	color:black;
+}
+#qualification{
+	height:600px;
+	width:100%;
+	margin-top:5px;
+}
+#qualification h1{
+	font-size:45px;
+	text-align:center;
+}
+
+.box{
+	height:60%;
+	width:25%;
+	float:left;
+	margin-top:3%;
+	margin-left:6.5%;
+	background-color:white;
+	border-radius:15px;
+	box-shadow:2px 2px 15px black;
+}
+.grade{
+	height:35%;
+	width:15%;
+	float:left;
+	margin-left:5%;
+	font-size:30px;
+	padding:2%;
+	color:white;
+	background: radial-gradient(circle, rgba(175,174,238,1) 0%, rgba(142,194,234,1) 48%, rgba(135,198,233,1) 59%, rgba(134,199,233,1) 68%, rgba(75,236,226,1) 100%);
+	text-align:center;
+	
+}
+.percent{
+	height:45%;
+	width:65%;
+	float:left;
+	margin-left:5%;
+	font-size:45px;
+	color:black;
+	text-align:center;
+	
+}
+
+
+.box h1{
+	text-align:center;
+	font-size:35px;
+	color:blue;
+}
+
+.box p{
+	text-align:center;
+	font-size:25px;
+	color:black;
+}
+
+#skills{
+	height:600px;
+	width:100%;
+	margin-top:5px;
+	background-color:white;
+}
+#skills h1{
+	font-size:45px;
+	text-align:center;
+}
+#skill1{
+	height:350px;
+	width:20%;
+	float:left;
+	margin-left:4%;
+	margin-top:9px;
+	border-radius:15%;
+	box-shadow:2px 2px 10px #03d3fc;
+}
+
+#skill1 img{
+	height:200px;
+	width:60%;
+	margin-left:20%;
+	margin-top:40px;
+}
+
+#skill2{
+	height:350px;
+	width:20%;
+	float:left;
+	margin-left:4%;
+	margin-top:9px;
+	border-radius:15%;
+	box-shadow:2px 2px 10px #03d3fc;
+}
+
+#skill2 img{
+	height:200px;
+	width:60%;
+	margin-left:20%;
+	margin-top:40px;
+}
+#skill3{
+	height:350px;
+	width:20%;
+	float:left;
+	margin-left:4%;
+	margin-top:9px;
+	border-radius:15%;
+	box-shadow:2px 2px 10px #03d3fc;
+}
+
+#skill3 img{
+	height:200px;
+	width:60%;
+	margin-left:20%;
+	margin-top:40px;
+}
+#skill4{
+	height:350px;
+	width:20%;
+	float:left;
+	margin-left:4%;
+	margin-top:9px;
+	border-radius:15%;
+	box-shadow:2px 2px 10px #03d3fc;
+}
+
+#skill4 img{
+	height:200px;
+	width:60%;
+	margin-left:20%;
+	margin-top:40px;
+}
+
+#contactus{
+	height:600px;
+	width:100%;
+	margin-top:5px;
+}
+#contactus h1{
+	font-size:45px;
+	text-align:center;
+}
+#contact1{
+	height:400px;
+	width:40%;
+	float:left;
+	margin-top:5%;
+	margin-left:5%;
+}
+#contact1 button:hover{
+	background-color:red;
+}
+
+#contact1 input{
+	height:50px;
+	width:80%;
+	color:black;
+	border:none;
+	margin-left:5%;
+	margin-top:5%;
+	display:block;
+	border-radius:15px;
+	box-shadow:2px 2px 10px black;
+}
+#contact1 button{
+	height:50px;
+	width:20%;
+	color:white;
+	font-size:25px;
+	border:none;
+	margin-left:35%;
+	margin-top:5%;
+	display:block;
+	background-color:black;
+	border-radius:15px;
+	box-shadow:2px 2px 10px black;
+}
+#contact2{
+	height:400px;
+	width:40%;
+	float:left;
+	margin-top:5%;
+	margin-left:5%;
+}
+#contact2 h3{
+	height:40px;
+	width:40%;
+	font-size:25px;
+	margin-top:5%;
+	margin-left:5%;
+}
+#contact2 h4{
+	height:40px;
+	width:40%;
+	font-size:15px;
+	margin-top:5%;
+	margin-left:10%;
+}
